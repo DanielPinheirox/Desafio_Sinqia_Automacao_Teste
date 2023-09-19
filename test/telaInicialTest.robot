@@ -1,7 +1,7 @@
 *** Settings ***
 Resource            ../resources/pages/telaInicial/telaInicial.resource
 Task Setup          Given Navegar até a tela Inicial do Agibank
-Test Teardown       Fechar Navegador
+Test Teardown       Then Fechar Navegador
 
 *** Test Cases ***
 Validar Botao Pesquisar
